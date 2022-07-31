@@ -32,6 +32,9 @@
         <permission name="android.permission.REQUEST_DELETE_PACKAGES" />
         <permission name="android.permission.SET_WALLPAPER" />
         <permission name="android.permission.SET_WALLPAPER_HINTS" />
+        <permission name="android.permission.START_TASKS_FROM_RECENTS" />
+        <permission name="android.permission.STOP_APP_SWITCHES" />
+        <permission name="android.permission.STATUS_BAR" />
         <permission name="android.permission.VIBRATE" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
         <permission name="app.lawnchair.permission.HOTSEAT_EDU" />
