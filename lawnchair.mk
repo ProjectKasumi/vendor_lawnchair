@@ -2,8 +2,16 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/lawnchair
 
+ifeq ($(KASUMI_LC12ISPROBLEMATIC),true)
+    PRODUCT_PACKAGES += \
+        Lawnchair11 \
+        privapp-permissions-lawnchair11
+else
+    PRODUCT_PACKAGES += \
+        Lawnchair \
+        privapp-permissions-lawnchair
+endif
+
 PRODUCT_PACKAGES += \
-    Lawnchair \
     LawnchairOverlay \
-    lawnchair-hiddenapi-package-whitelist \
-    privapp-permissions-lawnchair
+    lawnchair-hiddenapi-package-whitelist

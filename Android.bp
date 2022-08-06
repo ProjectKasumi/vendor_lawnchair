@@ -16,3 +16,11 @@ prebuilt_etc_xml {
 	sub_dir: "permissions",
 	system_ext_specific: true
 }
+
+prebuilt_etc_xml {
+	name: "privapp-permissions-lawnchair11",
+	src: "permissions/privapp-permissions-lawnchair11.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+	system_ext_specific: true
+}
